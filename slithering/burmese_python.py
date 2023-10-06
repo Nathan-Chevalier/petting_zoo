@@ -10,7 +10,7 @@ class BurmesePython:
         self.food = food
 
     def __str__(self):
-        return f'{self.name} is a {self.species}'
+        return f'{self.name} the {self.species}'
 
     def feed(self):
         feed_message = f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}'

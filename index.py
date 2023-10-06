@@ -6,8 +6,8 @@ from walking import Alpaca, Donkey, Goat, Llama, Monkey
 from attractions import PettingZoo, Wetlands, SnakePit
 
 
-roberto = Alpaca("Roberto", "alpaca", "midday", "Alpaca Chow")
-gary = Llama("Gary", "llama", "Swing", "Llama Food")
+roberto = Alpaca("Roberto", "alpaca", "midday", "Alpaca Chow", 27)
+gary = Llama("Gary", "llama", "Swing", "Llama Food", 89)
 varmint_village = PettingZoo("Varmint Village", "a really bad idea")
 
 print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
@@ -18,3 +18,6 @@ print(gary)
 varmint_village.add(roberto)
 varmint_village.add(gary)
 varmint_village.report()
+print(roberto.chip_num)
+print(varmint_village.last_critter_added)
+
