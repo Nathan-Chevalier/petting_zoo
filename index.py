@@ -6,5 +6,7 @@ from walking import Alpaca, Donkey, Goat, Llama, Monkey
 
 
 roberto = Alpaca("Roberto", "alpaca", "midday")
+gary = Llama("Gary", "llama", "Swing", "Llama Food")
 
 print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
+gary.feed()
