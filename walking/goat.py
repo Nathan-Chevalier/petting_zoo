@@ -1,3 +1,4 @@
+from datetime import date
 class Goat:
 
     def __init__(self, name, species, shift):
