@@ -13,7 +13,7 @@ class Animal:
         return feed_message
     
     def __str__(self):
-        return f'{self.name} the {self.species}.'
+        return f'{self.name} the {self.species}'
     
     @property #When chip_num is accessed, the private value set by __chip_number will display instead.  Property is a "Getter" function
     def chip_num(self):
