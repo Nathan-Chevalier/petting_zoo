@@ -10,6 +10,6 @@ from .crocodile import Crocodile
 from .sea_snake import SeaSnake
 from .alpaca import Alpaca
 from .donkey import Donkey
-from .goat import Goat
+from .goose import Goose
 from .llama import Llama
 from .monkey import Monkey
