@@ -9,11 +9,13 @@ from attractions import PettingZoo, Wetlands, SnakePit
 gary = Llama("Gary", "llama", "Swing", "Llama Food", 89)
 bobby = SeaSnake("Bobby", "Sea Snake", "Fish", 27)
 ricky = Rattlesnake("Ricky", "Rattlesnake", "Mice", 224)
+alex = Alligator("Alex", "Alligator", "Person", 81767)
 varmint_village = PettingZoo("Varmint Village", "a really bad idea")
 
 gary.feed()
 bobby.feed()
 ricky.feed()
+alex.feed()
 print(gary)
 print(bobby)
 print(ricky)
