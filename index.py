@@ -13,15 +13,12 @@ varmint_village = PettingZoo("Varmint Village", "a really bad idea")
 snake_surplus = SnakePit("Snake Surplus", "a place that has a lot of snakes")
 wet_williams = Wetlands("Wet Williams'", "very damp and very old")
 
-
-
-
-varmint_village.add(gary)
-snake_surplus.add(alex)
-wet_williams.add(bobby)
+varmint_village.add_animal_pythonic(gary)
+varmint_village.add_animal_type_check(bobby)
+snake_surplus.add_animal_pythonic(ricky)
+wet_williams.add_animal_pythonic(greg)
+wet_williams.add_animal_pythonic(gary)
 varmint_village.report()
 snake_surplus.report()
 wet_williams.report()
-print(varmint_village.last_critter_added)
 print(varmint_village)
-
